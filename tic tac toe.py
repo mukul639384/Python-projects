@@ -48,7 +48,7 @@ def playerMove():
                 else:
                     print('Sorry, this space is occupied')
             else:
-                print('please type a number between 1 and 9')
+                print('Invalid Move! Please type a number between 1 and 9')
 
         except:
             print('Please type a number')
